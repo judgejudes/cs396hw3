@@ -59,7 +59,7 @@ const Utils = function () {
     };
 
     this.route = function (route) {
-        const endpoint = (process.env.CURRENT_ENDPOINT || "http://localhost:8081") + route;
+        const endpoint = (process.env.CURRENT_ENDPOINT || "https://cs396-hw-one.herokuapp.com/") + route;
         // console.log('ENDPOINT:', endpoint);
         return endpoint;
     };
